@@ -47,9 +47,3 @@ services:
     volumes:
       - ./app:/opt/spark-apps
       - ./storage:/opt/spark-data
-  demo-database:
-    image: postgres:11.7-alpine
-    ports: 
-      - "5432:5432"
-    environment: 
-      - POSTGRES_PASSWORD=anykey
