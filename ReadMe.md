@@ -5,3 +5,7 @@
 |_docker-compose.yml - sets servers configs<br><br/>
 |_spark.sh - service env script, used in Dockerrfile only.<br><br/>
 |_master.sh, worker_a.sh, worker_b.sh - launch task on instance. execute on master if you don't care<br><br/>
+
+To launch docker-compose:<br></br>
+docker build -t cluster-apache-spark:3.2.0 . <br></br>
+docker-compose up -d <br></br>
