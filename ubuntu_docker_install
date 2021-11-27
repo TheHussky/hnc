@@ -1,2 +1,3 @@
 apt update
 apt install docker.io docker-compose python3-docker
+apt upgrade
